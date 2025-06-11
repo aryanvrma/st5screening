@@ -83,7 +83,7 @@ const Index = () => {
               frameBorder="0" 
               marginHeight="0" 
               marginWidth="0"
-              className="w-full rounded-lg"
+              className="w-full max-w-4xl rounded-lg"
             >
               Loading…
             </iframe>
