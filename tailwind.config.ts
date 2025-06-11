@@ -96,11 +96,11 @@ export default {
 					}
 				},
 				'glow-flicker': {
-					'0%, 50%': {
+					'0%, 60%': {
 						textShadow: '0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000',
 						opacity: '1'
 					},
-					'10%': {
+					'50%': {
 						textShadow: '0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000, 0 0 20px #ff0000',
 						opacity: '0.8'
 					}
