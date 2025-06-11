@@ -75,7 +75,7 @@ const Index = () => {
           </h3>
           
           {/* Google Form Iframe */}
-          <div className="max-w-4xl w-full mx-auto bg-black/80 border-stranger-red border-2 rounded-lg p-4">
+          <div className="max-w-screen-lg w-full mx-auto bg-black/80 border-stranger-red border-2 rounded-lg p-4">
             <iframe 
               src="https://docs.google.com/forms/d/e/1FAIpQLScqpSr7AKDzxa5QQh3FfNv4uZkUQWAHh7_jXUkvP58ZKn5_Yw/viewform?embedded=true" 
               width="100%" 
@@ -83,7 +83,7 @@ const Index = () => {
               frameBorder="0" 
               marginHeight="0" 
               marginWidth="0"
-              className="w-full max-w-4xl rounded-lg"
+              className="w-full rounded-lg"
             >
               Loading…
             </iframe>
