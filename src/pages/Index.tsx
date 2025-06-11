@@ -6,7 +6,7 @@ const Index = () => {
     <div className="min-h-screen relative overflow-hidden bg-black">
       {/* Background Image with Opacity */}
       <div 
-        className="bg-cover bg-fixed bg-center bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-fixed bg-center bg-no-repeat"
         style={{
           backgroundImage: `url('/lovable-uploads/816eb1f5-5157-4b8e-bf8f-0c3a91c98d72.png')`,
           opacity: 0.5
