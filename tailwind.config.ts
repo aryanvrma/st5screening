@@ -97,7 +97,7 @@ export default {
 				},
 				'glow-flicker': {
 					'0%, 100%': {
-						textShadow: '0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000,
+						textShadow: '0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000',
 						opacity: '1'
 					},
 					'50%': {
