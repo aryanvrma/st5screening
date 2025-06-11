@@ -21,21 +21,24 @@ const Index = () => {
         
         {/* Stranger Things Logo Text with Glow Effect */}
         <div className="text-center mb-8">
-          <h1 className="font-stranger text-6xl md:text-8xl lg:text-9xl font-bold text-stranger-red animate-glow-flicker mb-4 tracking-wider">
+          <h1 className="font-stranger text-6xl md:text-8xl lg:text-9xl font-bold text-stranger-red animate-glow-flicker mb-4 tracking-wider border-2 border-stranger-red/50 px-8 py-4 rounded-lg animate-border-glow">
             STRANGER
           </h1>
-          <h1 className="font-stranger text-6xl md:text-8xl lg:text-9xl font-bold text-stranger-red animate-glow-flicker tracking-wider">
+          <h1 className="font-stranger text-6xl md:text-8xl lg:text-9xl font-bold text-stranger-red animate-glow-flicker tracking-wider border-2 border-stranger-red/50 px-8 py-4 rounded-lg animate-border-glow">
             THINGS
           </h1>
           <div className="text-stranger-red text-2xl md:text-3xl font-title mt-2 tracking-[0.2em]">
             SEASON 5
+          </div>
+          <div className="text-stranger-red text-xl md:text-2xl font-title mt-1 tracking-[0.15em]">
+            VOLUME 1
           </div>
         </div>
 
         {/* Tagline */}
         <div className="text-center mb-6">
           <h2 className="font-stranger text-2xl md:text-4xl lg:text-5xl text-white font-semibold mb-3 tracking-wide">
-            Relive Hawkins&apos; End, On A Big Screen
+            Relive Hawkins&apos; End, In Theater On Big Screen
           </h2>
           <p className="font-title text-xl md:text-2xl text-stranger-red tracking-wider">
             A Fan&apos;s Initiative
@@ -43,7 +46,7 @@ const Index = () => {
         </div>
 
         {/* Event Details Card */}
-        <Card className="bg-black/80 border-stranger-red border-2 backdrop-blur-sm max-w-md w-full mx-4">
+        <Card className="bg-black/80 border-stranger-red border-2 backdrop-blur-sm max-w-md w-full mx-4 mb-8">
           <CardContent className="p-6 text-center">
             <div className="space-y-4">
               <div>
@@ -60,12 +63,34 @@ const Index = () => {
                   DATE & TIME
                 </h3>
                 <p className="font-stranger text-lg text-white">
-                  November 27 | 12 PM
+                  November 26 | 12 PM
                 </p>
               </div>
             </div>
           </CardContent>
         </Card>
+
+        {/* Call to Action */}
+        <div className="text-center mb-8">
+          <h3 className="font-title text-2xl md:text-3xl text-stranger-red mb-6 tracking-wide">
+            FILL THIS FORM TO SHOW YOUR INTEREST
+          </h3>
+          
+          {/* Google Form Iframe */}
+          <div className="w-full max-w-2xl mx-auto bg-black/80 border-stranger-red border-2 rounded-lg p-4">
+            <iframe 
+              src="https://docs.google.com/forms/d/e/1FAIpQLScqpSr7AKDzxa5QQh3FfNv4uZkUQWAHh7_jXUkvP58ZKn5_Yw/viewform?embedded=true" 
+              width="100%" 
+              height="800" 
+              frameBorder="0" 
+              marginHeight="0" 
+              marginWidth="0"
+              className="rounded-lg"
+            >
+              Loading…
+            </iframe>
+          </div>
+        </div>
 
         {/* Additional Atmospheric Text */}
         <div className="mt-8 text-center">
