@@ -28,11 +28,9 @@ const Index = () => {
             THINGS
           </h1>
           <div className="text-stranger-red text-2xl md:text-3xl font-title mt-2 tracking-[0.2em]">
-            SEASON 5
+            SEASON 5 | VOLUME 1
           </div>
-          <div className="text-stranger-red text-xl md:text-2xl font-title mt-1 tracking-[0.15em]">
-            VOLUME 1
-          </div>
+          
         </div>
 
         {/* Tagline */}
