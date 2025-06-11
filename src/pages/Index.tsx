@@ -21,7 +21,7 @@ const Index = () => {
         
         {/* Stranger Things Logo Text with Glow Effect */}
         <div className="text-center mb-8">
-          <h1 className="font-stranger text-6xl md:text-8xl lg:text-9xl font-bold text-stranger-red animate-glow-flicker mb-4 tracking-wider">
+          <h1 className="font-stranger text-6xl md:text-8xl lg:text-9xl font-bold text-stranger-red animate-glow-flicker mb-2 tracking-wider">
             STRANGER
           </h1>
           <h1 className="font-stranger text-6xl md:text-8xl lg:text-9xl font-bold text-stranger-red animate-glow-flicker tracking-wider">
