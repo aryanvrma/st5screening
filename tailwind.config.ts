@@ -100,7 +100,7 @@ export default {
 						textShadow: '0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000',
 						opacity: '1'
 					},
-					'50%': {
+					'10%': {
 						textShadow: '0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000, 0 0 20px #ff0000',
 						opacity: '0.8'
 					}
