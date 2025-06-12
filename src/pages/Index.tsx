@@ -39,7 +39,7 @@ const Index = () => {
             Relive Hawkins&apos; End, In Theater On Big Screen
           </h2>
           <p className="font-title text-xl md:text-2xl text-stranger-red tracking-wider">
-            A Fan&apos;s Initiative | Not Associated With Netflix
+            A Fan&apos;s Initiative | Not Associated With Netflix | Paid Event
           </p>
         </div>
 
