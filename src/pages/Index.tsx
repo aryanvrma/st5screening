@@ -69,11 +69,7 @@ const Index = () => {
           </CardContent>
         </Card>
 
-        {/* Call to Action */}
-        <div className="text-center mb-8">
-          <h3 className="font-title text-2xl md:text-3xl text-stranger-red mb-6 tracking-wide">
-            FILL THIS FORM TO SHOW YOUR INTEREST!!!
-          </h3>
+        
         {/* FAQ Section */}
         <div className="text-center mb-8 max-w-4xl w-full mx-auto">
           <h3 className="font-title text-2xl md:text-3xl text-stranger-red mb-6 tracking-wide">
@@ -137,7 +133,12 @@ const Index = () => {
               </AccordionItem>
             </Accordion>
           </div>
-        </div>  
+        </div>
+        {/* Call to Action */}
+        <div className="text-center mb-8">
+          <h3 className="font-title text-2xl md:text-3xl text-stranger-red mb-6 tracking-wide">
+            FILL THIS FORM TO SHOW YOUR INTEREST!!!
+          </h3>
           {/* Google Form Iframe */}
           <div className="max-w-screen-lg w-full mx-auto bg-black/80 border-stranger-red border-2 rounded-lg p-4">
             <iframe 
