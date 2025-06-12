@@ -71,7 +71,7 @@ const Index = () => {
         {/* Call to Action */}
         <div className="text-center mb-8">
           <h3 className="font-title text-2xl md:text-3xl text-stranger-red mb-6 tracking-wide">
-            FILL THIS FORM TO SHOW YOUR INTEREST
+            FILL THIS FORM TO SHOW YOUR INTEREST!!!
           </h3>
           
           {/* Google Form Iframe */}
