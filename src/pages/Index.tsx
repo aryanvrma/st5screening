@@ -1,5 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const Index = () => {
   return (
@@ -87,6 +88,71 @@ const Index = () => {
             >
               Loading…
             </iframe>
+          </div>
+        </div>
+
+        {/* FAQ Section */}
+        <div className="text-center mb-8 max-w-4xl w-full mx-auto">
+          <h3 className="font-title text-2xl md:text-3xl text-stranger-red mb-6 tracking-wide">
+            FREQUENTLY ASKED QUESTIONS
+          </h3>
+          
+          <div className="bg-black/80 border-stranger-red border-2 rounded-lg p-6 backdrop-blur-sm">
+            <Accordion type="single" collapsible className="w-full">
+              <AccordionItem value="item-1" className="border-stranger-red/30">
+                <AccordionTrigger className="font-stranger text-white hover:text-stranger-red text-left">
+                  Is the event paid?
+                </AccordionTrigger>
+                <AccordionContent className="font-stranger text-white/90 text-left">
+                  Yes, it will be a paid event. However, the pricing will be decided keeping in mind that most fans are students.
+                </AccordionContent>
+              </AccordionItem>
+              
+              <AccordionItem value="item-2" className="border-stranger-red/30">
+                <AccordionTrigger className="font-stranger text-white hover:text-stranger-red text-left">
+                  How many episodes will be played?
+                </AccordionTrigger>
+                <AccordionContent className="font-stranger text-white/90 text-left">
+                  There are 4 episodes in Stranger Things Season 5 Volume 1, and all of them will be screened.
+                </AccordionContent>
+              </AccordionItem>
+              
+              <AccordionItem value="item-3" className="border-stranger-red/30">
+                <AccordionTrigger className="font-stranger text-white hover:text-stranger-red text-left">
+                  What is the timing or duration of the event?
+                </AccordionTrigger>
+                <AccordionContent className="font-stranger text-white/90 text-left">
+                  The event will begin at 12 PM. Each episode is expected to be around 80 minutes long. With breaks between episodes, the total duration will be approximately 6 hours.
+                </AccordionContent>
+              </AccordionItem>
+              
+              <AccordionItem value="item-4" className="border-stranger-red/30">
+                <AccordionTrigger className="font-stranger text-white hover:text-stranger-red text-left">
+                  What is the venue for the event?
+                </AccordionTrigger>
+                <AccordionContent className="font-stranger text-white/90 text-left">
+                  The screening will take place in Greater Noida. The exact location will be shared with those who fill out the form.
+                </AccordionContent>
+              </AccordionItem>
+              
+              <AccordionItem value="item-5" className="border-stranger-red/30">
+                <AccordionTrigger className="font-stranger text-white hover:text-stranger-red text-left">
+                  Is this an official event by Netflix?
+                </AccordionTrigger>
+                <AccordionContent className="font-stranger text-white/90 text-left">
+                  No, this is not an official Netflix event. It is a fan-led initiative.
+                </AccordionContent>
+              </AccordionItem>
+              
+              <AccordionItem value="item-6" className="border-stranger-red/30">
+                <AccordionTrigger className="font-stranger text-white hover:text-stranger-red text-left">
+                  When will I receive the exact details?
+                </AccordionTrigger>
+                <AccordionContent className="font-stranger text-white/90 text-left">
+                  Those who fill out the form will be contacted via email or WhatsApp with all the event details.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
           </div>
         </div>
 
