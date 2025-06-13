@@ -46,7 +46,7 @@ const RecentSubmissions = () => {
           bg-black/90 border-stranger-red border-2 rounded-lg p-3 backdrop-blur-sm
           transition-all duration-300 ease-in-out transform
           ${isVisible ? 'translate-x-0 opacity-90' : 'translate-x-full opacity-0'}
-          min-w-[240px] max-w-[280px]
+          min-w-[220px] max-w-[260px]
         `}
       >
         <div className="text-center">
