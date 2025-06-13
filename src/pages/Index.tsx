@@ -1,6 +1,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import RecentSubmissions from "@/components/RecentSubmissions";
 
 const Index = () => {
   return (
@@ -168,6 +169,9 @@ const Index = () => {
       {/* Subtle Red Glow Effects */}
       <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-stranger-red/10 rounded-full blur-3xl" />
       <div className="absolute bottom-1/4 right-1/4 w-40 h-40 bg-stranger-red/10 rounded-full blur-3xl" />
+      
+      {/* Recent Submissions Notification */}
+      <RecentSubmissions />
     </div>
   );
 };
