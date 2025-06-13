@@ -32,7 +32,7 @@ const RecentSubmissions = () => {
         setCurrentSubmission((prev) => (prev + 1) % submissions.length);
         setIsVisible(true);
       }, 300);
-    }, 3000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, [submissions.length]);
@@ -46,7 +46,7 @@ const RecentSubmissions = () => {
           bg-black/90 border-stranger-red border-2 rounded-lg p-4 backdrop-blur-sm
           transition-all duration-300 ease-in-out transform
           ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'}
-          min-w-[200px] max-w-[250px]
+          min-w-[280px] max-w-[320px]
         `}
       >
         <div className="text-center">
