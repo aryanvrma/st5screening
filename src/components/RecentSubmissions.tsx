@@ -52,10 +52,11 @@ const RecentSubmissions = () => {
         <div className="text-center">
           <div className="font-stranger text-white text-lg font-semibold mb-1">
             {currentData.name}
-          </div>
-          <div className="font-stranger text-stranger-red text-sm mb-2">
+            <div className="font-stranger text-stranger-red text-sm mb-2">
             from {currentData.city}
+            </div>
           </div>
+          
           <div className="font-stranger text-white/70 text-xs">
             just filled the form
           </div>
