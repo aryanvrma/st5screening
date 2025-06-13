@@ -6,11 +6,15 @@ const RecentSubmissions = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   const indianNames = [
-    "Arjun", "Priya", "Rahul", "Ananya", "Vikram", "Shreya", "Aditya", "Kavya", 
-    "Rohan", "Meera", "Karan", "Riya", "Sidharth", "Pooja", "Aryan", "Neha",
-    "Varun", "Isha", "Akash", "Divya", "Harsh", "Tanya", "Nikhil", "Sakshi",
-    "Dev", "Kritika", "Yash", "Aditi", "Arnav", "Simran"
-  ];
+  "Arjun", "Priya", "Rahul", "Ananya", "Vikram", "Shreya", "Aditya", "Kavya", 
+  "Rohan", "Meera", "Karan", "Riya", "Sidharth", "Pooja", "Aryan", "Neha",
+  "Varun", "Isha", "Akash", "Divya", "Harsh", "Tanya", "Nikhil", "Sakshi",
+  "Dev", "Kritika", "Yash", "Aditi", "Arnav", "Simran",
+  "Aman", "Tarun", "Manav", "Ishaan", "Dhruv", "Kunal", "Jai", "Parth",
+  "Saurav", "Tejas", "Ankit", "Nishant", "Abhay", "Rajat", "Uday",
+  "Naina", "Sneha", "Anushka", "Bhavya", "Diya", "Trisha", "Lavanya", "Sanika",
+  "Radhika", "Malvika", "Charvi", "Tanvi", "Mahi", "Ishita", "Jhanvi"
+];
 
   const cities = ["Delhi", "Noida", "Greater Noida", "Ghaziabad", "Faridabad", "Gurgaon"];
 
