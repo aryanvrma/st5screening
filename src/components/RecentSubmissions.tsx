@@ -45,7 +45,7 @@ const RecentSubmissions = () => {
         className={`
           bg-black/90 border-stranger-red border-2 rounded-lg p-3 backdrop-blur-sm
           transition-all duration-300 ease-in-out transform
-          ${isVisible ? 'translate-x-0 opacity-75' : 'translate-x-full opacity-0'}
+          ${isVisible ? 'translate-x-0 opacity-80' : 'translate-x-full opacity-0'}
           min-w-[240px] max-w-[280px]
         `}
       >
