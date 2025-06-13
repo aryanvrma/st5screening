@@ -43,19 +43,16 @@ const RecentSubmissions = () => {
     <div className="fixed bottom-6 right-6 z-50">
       <div 
         className={`
-          bg-black/90 border-stranger-red border-2 rounded-lg p-4 backdrop-blur-sm
+          bg-black/90 border-stranger-red border-2 rounded-lg p-3 backdrop-blur-sm
           transition-all duration-300 ease-in-out transform
           ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'}
-          min-w-[280px] max-w-[320px]
+          min-w-[240px] max-w-[280px]
         `}
       >
         <div className="text-center">
-          <div className="font-stranger text-white text-lg font-semibold mb-1">
-            {currentData.name}
+          <div className="font-stranger text-white text-base font-semibold mb-1">
+            {currentData.name} from {currentData.city}
           </div>
-           <div className="font-stranger text-stranger-red text-sm mb-2">
-             from {currentData.city}
-           </div>
           <div className="font-stranger text-white/70 text-xs">
             just filled the form
           </div>
